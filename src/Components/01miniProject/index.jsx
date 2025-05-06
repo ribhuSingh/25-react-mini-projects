@@ -20,6 +20,7 @@ const Accordian = () => {
   
   return (
     <div className='w-2/3 text-center m-auto min-h-screen '>
+      <h1 className='text-3xl '>1st Mini Project</h1>
       <div>
         <button className={`${enableMultiSelection?'bg-amber-700':'bg-amber-950'} p-2 rounded-2xl m-5 text-2xl`}  onClick={()=>setEnableMultiSelection(true)} id='enable'>Enable Multiple selection</button>
         <button className={`${enableMultiSelection?'bg-amber-950':'bg-amber-700' } p-2 rounded-2xl m-5 text-2xl`} onClick={()=>setEnableMultiSelection(false)} >Disable Multiple Selection</button>
